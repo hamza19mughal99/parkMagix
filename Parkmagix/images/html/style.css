@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    box-shadow: 0 10px 25px rgb(235 28 36 / 10%);
+}
+
+.seach-bar .container {
+    margin: 50px auto;
+    background: white;
+    box-shadow: 0 10px 25px rgb(235 28 36 / 10%);
+    padding: 20px 40px 40px;
+    border-top: solid 20px #eb1c24;
+    border-radius: 15px;
+}
+
+.search-row {
+    max-width: 1000px;
+    margin: 40px auto 10px;
+}
+
+.seach-bar h3 {
+    font-weight: 800;
+}
+
+.search-row label {
+    width: 100%;
+}
+
+.search-row select,
+.search-row input[type="text"] {
+    width: 100%;
+    background: #F4F6F7;
+    border: 0;
+    margin: 5px 0 0;
+    padding: 14px;
+    border-radius: 4px;
+    outline: none !important;
+}
+
+.search-row2 label {
+    width: 100%;
+    font-weight: 600;
+}
+
+.search-row2 select,
+.search-row2 input[type="text"] {
+    width: 100%;
+    background: #F4F6F7;
+    border: 0;
+    margin: 5px 0 0;
+    padding: 14px;
+    border-radius: 4px;
+    outline: none !important;
+    margin-bottom: 20px;
+}
+
+form.form.row {
+    align-items: end;
+}
+
+.search-row2 input[type="submit"] {
+    background: #EB1C24;
+    border: 0;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 10px 25px rgb(235 28 36 / 10%);
+    width: 100%;
+}
+
+.search-row input[type="submit"],
+button.btn-red {
+    background: #EB1C24;
+    border: 0;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 10px 25px rgb(235 28 36 / 10%);
+}
+
+.location-wrapper {
+    box-shadow: 0 30px 40px rgb(0 0 0 / 15%);
+    padding-bottom: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.location-cards .container {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.location-wrapper .location-name {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.location-wrapper .location-name img {
+    margin-right: 10px;
+}
+
+.location-wrapper .location-name h4 {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.location-wrapper hr {
+    max-width: 90% !important;
+    margin: 10px auto 20px;
+    background: #C3C3C3;
+}
+
+.location-wrapper p.text-center {
+    color: #C3C3C3;
+}
+
+.location-cards h3 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+.container {
+    position: relative;
+}
+
+/*--------search page--------*/
+.search-header-btn {
+    position: absolute;
+    left: 0;
+    width: auto;
+    background: #EB1C24;
+    border: 0;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 10px 25px rgb(235 28 36 / 10%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.search-header-btn:hover {
+    color: white;
+}
+
+.parking-loactions .container {
+    box-shadow: 0 10px 25px rgb(235 28 36 / 10%);
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+.txt-red {
+    color: #eb1c24;
+    margin: 0;
+}
+
+.location-list .feat-img img {
+    border-radius: 15px;
+}
+
+.location-details {
+    display: flex;
+    align-items: self-start;
+    text-decoration: none;
+}
+
+.location-ratings {
+    display: flex;
+}
+
+.location-details ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.location-details-inner {
+    padding-left: 10px;
+}
+
+.location-details-inner p {
+    margin: 2px 0;
+    color: #C3C3C3;
+}
+
+.location-details-inner h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.location-details-inner ul li i {
+    color: #F4D87C;
+    margin: 0 2px;
+}
+
+.location-list {
+    border: solid 1px #c3c6d3;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+
+.location-list2 {
+    border: solid 1px #c3c6d3;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-radius: 15px;
+    margin: 20px 25px;
+}
+
+.hourly-rates h3 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.hourly-rates h3 span {
+    padding: 0 5px;
+    font-weight: 300;
+    color: #C3C3C3;
+    font-size: 17px;
+}
+
+.hourly-rates2 h3 span {
+    padding: 0 5px;
+    font-weight: 300;
+    color: #C3C3C3;
+    font-size: 17px;
+}
+
+.location-list-wrapper {
+    height: 450px;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 0 10px 0px 0px;
+}
+
+.location-list-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.location-list-wrapper::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.location-list-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #D62929;
+}
+
+.hourly-rates h3 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.hourly-rates2 h3 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.location-details-inner h4,
+.location-ratings span,
+.hourly-rates {
+    color: #000;
+}
+
+.location-list-wrapper a {
+    text-decoration: none !important;
+}
+
+.search_details {
+    background-image: url('./images/garage.jpg');
+    width: 100%;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+.inner_text {
+    width: 34%;
+    margin: auto;
+    padding: 20px 0;
+    background-color: white;
+
+}
+
+hr{
+    margin-top: 5px;
+}
+
+/*---------responsive---------------*/
+@media(max-width: 990px) {
+    .inner_text {
+        width: 95%;
+        margin: auto;
+        padding: 20px 20px;
+        background-color: white;
+    }
+
+    .search-row input[type="submit"] {
+        padding: 10px 30px;
+    }
+
+    .location-wrapper .location-name h4 {
+        font-size: 15px;
+    }
+
+    .location-list {
+        align-items: start;
+    }
+
+    .location-details-inner h4 {
+        font-size: 16px;
+    }
+
+    .location-details-inner p {
+        font-size: 12px;
+    }
+
+    .hourly-rates h3 {
+        font-size: 15px;
+    }
+
+    .hourly-rates h3 span {
+        font-size: 12px;
+    }
+
+    .parking-loactions .container {
+        padding: 40px 20px;
+    }
+
+    .location-ratings {
+        font-size: 13px;
+    }
+
+    button.btn-red {
+        padding: 10px 30px;
+    }
+}
+
+@media(max-width: 767px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .seach-bar .container {
+        padding: 20px 20px 20px;
+    }
+
+    .map-wrapper {
+        margin: 15px 0 0;
+    }
+
+    .map-wrapper iframe {
+        height: 250px;
+    }
+
+    .feat-img {
+        margin-bottom: 20px;
+    }
+}
